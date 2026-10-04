@@ -474,16 +474,9 @@ Exporting code-review reports
 
 
 
-
- 
-
-
-
 📌 Project Goal
 
-
-
-The goal of this project is to combine \*\*software development, desktop application development, backend APIs, and local AI/LLM technology into a practical developer-focused tool.
+The goal of this project is to combine software development, desktop application development, backend APIs, and local AI/LLM technology into a practical developer-focused tool.
 
 
 
