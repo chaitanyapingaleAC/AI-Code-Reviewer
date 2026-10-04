@@ -504,6 +504,28 @@ The goal of this project is to combine \*\*software development, desktop applica
 
 
 
+## 📸 Screenshots
+
+### Code Generator
+
+Generate code based on a given programming requirement using the AI-powered code generator.
+
+![Code Generator](screenshots/code-generator.png)
+
+### AI Code Reviewer
+
+Analyze source code and receive AI-generated feedback, suggestions, rating, and complexity information.
+
+![Code Reviewer](screenshots/code-reviewer.png)
+
+### AI Chat
+
+Interact with the locally running AI model through the application's chat interface.
+
+![AI Chat](screenshots/ai-chat.png)
+
+
+
 ⭐ If you find this project interesting, consider giving the repository a star.
 
 
