@@ -1,106 +1,105 @@
-\# AI Code Reviewer
+AI Code Reviewer
 
 
 
-An \*\*offline AI-powered code review application\*\* that helps developers analyze source code, identify potential issues, and receive AI-generated feedback without sending their code to external cloud services.
+An offline AI-powered code review application\*\* that helps developers analyze source code, identify potential issues, and receive AI-generated feedback without sending their code to external cloud services.
 
 
 
-The application uses \*\*Electron\*\* for the desktop interface, \*\*Express.js\*\* for the backend, and \*\*Ollama\*\* to run the AI model locally.
+The application uses Electron for the desktop interface, Express.js  for the backend, and Ollama to run the AI model locally.
 
 
+ 🚀 Features
 
-\## 🚀 Features
 
 
+🤖 AI-powered source code analysis
 
-\* 🤖 AI-powered source code analysis
+🔒 Offline code review using a locally running AI model
 
-\* 🔒 Offline code review using a locally running AI model
+💻 Desktop application built with Electron
 
-\* 💻 Desktop application built with Electron
+⚙️ Express.js backend for handling code-review requests
 
-\* ⚙️ Express.js backend for handling code-review requests
+🧠 Local AI inference using Ollama
 
-\* 🧠 Local AI inference using Ollama
+📝 Code feedback and suggestions
 
-\* 📝 Code feedback and suggestions
+📂 Support for analyzing source code within the application
 
-\* 📂 Support for analyzing source code within the application
+🖥️ Modern web-based user interface
 
-\* 🖥️ Modern web-based user interface
+📊 Review history support
 
-\* 📊 Review history support
+🌐 No dependency on external AI APIs for code analysis
 
-\* 🌐 No dependency on external AI APIs for code analysis
 
 
+🛠️ Tech Stack
 
-\## 🛠️ Tech Stack
 
 
+Frontend
 
-\### Frontend
 
 
+React
 
-\* React
+Vite
 
-\* Vite
+JavaScript
 
-\* JavaScript
+HTML
 
-\* HTML
+CSS
 
-\* CSS
 
 
+Backend
 
-\### Backend
 
 
+Node.js
 
-\* Node.js
+Express.js
 
-\* Express.js
 
 
+Desktop
 
-\### Desktop
 
 
+Electron
 
-\* Electron
 
 
+AI
 
-\### AI
 
 
+Ollama
 
-\* Ollama
+Local Large Language Model (LLM)
 
-\* Local Large Language Model (LLM)
 
 
+Development Tools
 
-\### Development Tools
 
 
+Git
 
-\* Git
+GitHub
 
-\* GitHub
+npm
 
-\* npm
 
 
+🏗️ Architecture
 
-\## 🏗️ Architecture
 
 
 
-```text
 
 &#x20;                   ┌─────────────────────┐
 
@@ -158,31 +157,30 @@ The application uses \*\*Electron\*\* for the desktop interface, \*\*Express.js\
 
 
 
-\## 🔄 How It Works
+ 🔄 How It Works
 
 
 
-1\. The user provides source code through the application.
+1. The user provides source code through the application.
 
-2\. The Electron application communicates with the Express backend.
+2. The Electron application communicates with the Express backend.
 
-3\. The backend prepares the code-review request.
+3. The backend prepares the code-review request.
 
-4\. Ollama processes the request using a locally running AI model.
+4. Ollama processes the request using a locally running AI model.
 
-5\. The AI analyzes the submitted code.
+5. The AI analyzes the submitted code.
 
-6\. The generated review is returned to the application.
+6. The generated review is returned to the application.
 
-7\. The user can view the review and suggestions through the interface.
-
-
-
-\## 📁 Project Structure
+7. The user can view the review and suggestions through the interface.
 
 
+ 📁 Project Structure
 
-```text
+
+
+
 
 AI-Code-Reviewer/
 
@@ -216,7 +214,7 @@ AI-Code-Reviewer/
 
 
 
-\## ⚙️ Prerequisites
+ ⚙️ Prerequisites
 
 
 
@@ -224,13 +222,13 @@ Before running the project, make sure you have:
 
 
 
-\* Node.js installed
+ Node.js installed
 
-\* npm installed
+ npm installed
 
-\* Ollama installed
+ Ollama installed
 
-\* A compatible Ollama model available locally
+ A compatible Ollama model available locally
 
 
 
@@ -326,7 +324,7 @@ cd ..
 
 
 
-\## 🧠 Ollama Setup
+🧠 Ollama Setup
 
 
 
@@ -362,7 +360,7 @@ ollama list
 
 
 
-\## ▶️ Running the Application
+▶️ Running the Application
 
 
 
@@ -386,7 +384,7 @@ For the Electron application, use the project’s configured Electron start comm
 
 
 
-\## 🔐 Why Offline AI?
+🔐 Why Offline AI?
 
 
 
@@ -434,77 +432,66 @@ Because the AI inference is performed locally, the project can be useful when de
 
 
 
-\## 🎯 Use Cases
+🎯 Use Cases
 
 
 
-\* Learning and improving programming practices
+ Learning and improving programming practices
 
-\* Identifying potential code issues
+ Identifying potential code issues
 
-\* Understanding AI-assisted code review
+ Understanding AI-assisted code review
 
-\* Experimenting with local LLMs
+ Experimenting with local LLMs
 
-\* Reviewing code without relying on external AI APIs
+ Reviewing code without relying on external AI APIs
 
-\* Exploring desktop AI applications
-
-
-
-\## 🔮 Future Improvements
+ Exploring desktop AI applications
 
 
 
-\* Support for multiple programming languages
-
-\* More detailed code-quality metrics
-
-\* Security vulnerability detection
-
-\* Performance analysis
-
-\* Code complexity analysis
-
-\* Improved review history and search
-
-\* Support for multiple local AI models
-
-\* Exporting code-review reports
-
-\* Automated test-case suggestions
-
-\* Git/GitHub integration
+ 🔮 Future Improvements
 
 
 
-\## 👥 Contributors
+Support for multiple programming languages
+
+More detailed code-quality metrics
+
+Security vulnerability detection
+
+Performance analysis
+
+Code complexity analysis
+
+Improved review history and search
+
+Support for multiple local AI models
+
+Exporting code-review reports
 
 
 
-This project was developed as a team project.
 
 
 
-\* \*\*Chaitanya Pingale\*\*
-
-\* \*\*Sarthak Titar\*\*
+ 
 
 
 
-\## 📌 Project Goal
+📌 Project Goal
 
 
 
-The goal of this project is to combine \*\*software development, desktop application development, backend APIs, and local AI/LLM technology\*\* into a practical developer-focused tool.
+The goal of this project is to combine \*\*software development, desktop application development, backend APIs, and local AI/LLM technology into a practical developer-focused tool.
 
 
 
-\---
 
 
 
-## 📸 Screenshots
+
+ 📸 Screenshots
 
 ### Code Generator
 
