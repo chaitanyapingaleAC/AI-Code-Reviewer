@@ -2,5 +2,10 @@ node_modules/
 .env
 dist/
 build/
+dist-app/
+runtimes/
 *.log
 .DS_Store
+*.db
+*.db-shm
+*.db-wal
